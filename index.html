@@ -13,9 +13,9 @@
 	<header>
 		<div class="contenedor">
 			<nav class="menu">
-				<a href="#">Acerca de</a>
-				<a href="#">Trabajos</a>
-				<a href="#">Contacto</a>
+				<a href="#sobre-mi">Sobre mi</a>
+				<a href="#proyectos">Proyectos</a>
+				<a href="#contacto">Redes</a>
 			</nav>
 			
 			<div class="contenedor-texto">
@@ -53,13 +53,14 @@
 					<div class="texto">
 						<h3 class="titulo"><i class="fas fa-code"></i></i> Back-End</h3>
 						<p>Experiencia y conocimiento de lenguajes Back-End para el desarrollo 
-							de la logica de aplicaciones.</p>
+							de la lógica de aplicaciones.</p>
 						<ul>
 							<li>PHP</li>
 							<li>NodeJs (básico)</li>
 							<li>Laravel</li>
 							<li>Java EE</li>
 							<li>C# con .Net (básico)</li>
+							<li>IONIC (básico)</li>
 							<li>Creación y consumo de API's</li>
 							<li>Scripts bash</li>
 						</ul>
@@ -78,7 +79,7 @@
 
 					<div class="texto">
 						<h3 class="titulo"><i class="fas fa-code-branch"></i> Control de versiones</h3>
-						<p>Conocimiento en el manejo y control de versionamiento de codigo.</p>
+						<p>Conocimiento en el manejo y control de versionamiento de código.</p>
 						<ul>
 							<li>Git</li>
 							<li>GitHub</li>
@@ -93,17 +94,22 @@
 		<section class="sobre-mi">
 			<div class="contenedor">
 				<div class="texto">
-					<h3 class="titulo">Sobre mi</h3>
+					<h3 class="titulo" id="sobre-mi">Sobre mi</h3>
 					<p>Mi nombre es Luis Rodrigo, soy recién egresado de la Universidad 
 						Iberoamericana Ciudad de México en TSU Software. Me entusiasma el
 					  desarrollo de aplicaciones tanto como la música.🤟&#128526;🤟</p>
+						<br>
+						<p>Llevo aproximadamente seis meses de experiencia (práctica)
+							en el desarrollo web, desarrollando proyectos personales y un 
+							proyecto real para una pequeña empresa distribuidora de 
+						productos electrónicos en donde colabore con la parte del back-end.</p>
 				</div>
 			</div>
 		</section>
 			
 		<section class="trabajos">
 			<div class="contenedor">
-				<h3 class="titulo">Proyectos</h3>
+				<h3 class="titulo" id="proyectos">Proyectos</h3>
 						
 				<div class="contenedor-trabajos">
 					<div class="trabajo">
@@ -115,96 +121,76 @@
 							<p class="categoria">Bootstrap - Angular - API Spotify</p>
 						</div>
 					</div>
+
 					<div class="trabajo">
 						<div class="thumb">
-							<img src="img/trabajos/2.jpg" alt="Lorem Ipsum">
+							<a href="https://rodrigolaguna.github.io/Comic-App/heroes"><img src="img/trabajos/comic-app1.png" alt="comic app"></a>
 						</div>
 						<div class="descripcion">
-							<p class="nombre">Lorem Ipsum</p>
-							<p class="categoria">HTML - CSS - PHP</p>
+							<p class="nombre">Comic App</p>
+							<p class="categoria">Bootstrap - Angular</p>
 						</div>
 					</div>
+
 					<div class="trabajo">
 						<div class="thumb">
-							<img src="img/trabajos/3.jpg" alt="Lorem Ipsum">
+							<a href="https://rodrigolaguna.github.io/todo-js-mvc/"><img src="img/trabajos/todo-mvc.png" alt="Lorem Ipsum"></a>
+							
 						</div>
 						<div class="descripcion">
-							<p class="nombre">Lorem Ipsum</p>
-							<p class="categoria">HTML - CSS - PHP</p>
+							<p class="nombre">TODO MVC</p>
+							<p class="categoria">HTML - CSS - JavaScript</p>
 						</div>
 					</div>
+					
 					<div class="trabajo">
 						<div class="thumb">
-							<img src="img/trabajos/4.jpg" alt="Lorem Ipsum">
+							<a href="https://github.com/RodrigoLaguna/Proyecto-Laravel-Gestion-Proyectos/tree/master/Laravel/Gestion_Proyectos"><img src="img/trabajos/proyectos.PNG" alt="proyectos"></a>
+							
 						</div>
 						<div class="descripcion">
-							<p class="nombre">Lorem Ipsum</p>
-							<p class="categoria">HTML - CSS - PHP</p>
+							<p class="nombre">Gestión de proyectos</p>
+							<p class="categoria">AdminLTE - Laravel</p>
 						</div>
 					</div>
+
 					<div class="trabajo">
 						<div class="thumb">
-							<img src="img/trabajos/5.jpg" alt="Lorem Ipsum">
+							<a href="https://distmomi.com/"><img src="img/trabajos/distmomi.PNG" alt="distmomi"></a>
+							
 						</div>
 						<div class="descripcion">
-							<p class="nombre">Lorem Ipsum</p>
-							<p class="categoria">HTML - CSS - PHP</p>
+							<p class="nombre">Distribuidora Moncada</p>
+							<p class="categoria">Bootstrap - Laravel</p>
 						</div>
 					</div>
+					
 					<div class="trabajo">
 						<div class="thumb">
-							<img src="img/trabajos/6.jpg" alt="Lorem Ipsum">
+							<a href="https://github.com/RodrigoLaguna/tareas-app"><img src="img/trabajos/deseos.PNG" alt="ionic"></a>
+							
 						</div>
 						<div class="descripcion">
-							<p class="nombre">Lorem Ipsum</p>
-							<p class="categoria">HTML - CSS - PHP</p>
+							<p class="nombre">Lista de pendientes</p>
+							<p class="categoria">Angular - IONIC</p>
 						</div>
 					</div>
-					<div class="trabajo">
-						<div class="thumb">
-							<img src="img/trabajos/7.jpg" alt="Lorem Ipsum">
-						</div>
-						<div class="descripcion">
-							<p class="nombre">Lorem Ipsum</p>
-							<p class="categoria">HTML - CSS - PHP</p>
-						</div>
-					</div>
-					<div class="trabajo">
-						<div class="thumb">
-							<img src="img/trabajos/8.jpg" alt="Lorem Ipsum">
-						</div>
-						<div class="descripcion">
-							<p class="nombre">Lorem Ipsum</p>
-							<p class="categoria">HTML - CSS - PHP</p>
-						</div>
-					</div>
+
 				</div>
 			</div>
 		</section>
 	</section>
 
 	<footer>
-		<div class="contenedor">
-			<section class="contacto">
-				<h3 class="titulo">Contacto</h3>
-				<form class="formulario" action="">
-					<input type="text" placeholder="Nombre" name="nombre" required>
-					<input type="email" placeholder="Correo" name="correo" required>
-					<textarea name="mensaje" placeholder="Mensaje:"></textarea>
-					<input class="boton" type="submit" value="Enviar">
-				</form>
-			</section>
-		</div>
-			
-		<section class="redes-sociales">
+		<section class="redes-sociales" id="contacto">
 			<div class="contenedor">
-				<a class="twitter" href="http://www.twitter.com/falconmasters"><i class="fa fa-twitter"></i></a>
-				<a class="facebook" href="http://www.facebook.com/falconmasters"><i class="fa fa-facebook"></i></a>
-				<a class="youtube" href="http://www.youtube.com/falconmasters"><i class="fa fa-youtube-play"></i></a>
-				<a class="github" href="http://www.github.com/falconmasters"><i class="fa fa-github"></i></a>
-				<a class="instagram" href="http://www.instagram.com/falconmasters"><i class="fa fa-instagram"></i></a>
+				<a class="twitter" href="https://www.linkedin.com/in/rodrigolaguna/"><i class="fab fa-linkedin"></i></a>
+				<a class="github" href="https://github.com/RodrigoLaguna"><i class="fab fa-github"></i></a>
 			</div>
 		</section>
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="./js/index.js"></script>
 </body>
 </html>
